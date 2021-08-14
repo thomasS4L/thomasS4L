@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -30,7 +30,12 @@ body {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
@@ -56,12 +61,19 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 30px;
+  text-align: center;
 }
 
 h4 {
   font-size: 18px;
   color: $gray;
+}
+
+h5 {
+  font-size: 18px;
+  color: $gray;
+  text-align: center;
 }
 
 p {
@@ -71,13 +83,15 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
+  cursor: pointer;
+  &:hover,
+  &:active {
     color: $blue;
   }
 }
 
-ul, ol {
+ul,
+ol {
   margin: 15px 0;
   padding-left: 30px;
 }
@@ -90,24 +104,32 @@ ol {
   list-style-type: decimal;
 }
 
-ol ul, ul ol, ul ul, ol ol {
+ol ul,
+ul ol,
+ul ul,
+ol ol {
   margin: 0;
 }
 
-ul ul, ol ul {
+ul ul,
+ol ul {
   list-style-type: circle;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
-strong, b {
+strong,
+b {
   font-weight: bold;
 }
 
 img {
-  max-width: 100%;
+  max-width: 70%;
+  display: block;
+  margin: 0 auto;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -134,12 +156,12 @@ img {
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /*********************/
@@ -151,12 +173,11 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  //margin-bottom: 10px;
 }
 
 .masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  padding: 10px 0;
 
   @include mobile {
     text-align: center;
@@ -164,10 +185,10 @@ img {
 }
 
 .site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
+  float: none;
+  width: 300px;
+  height: auto;
+  //margin-right: 15px;
 
   @include mobile {
     float: none;
@@ -210,11 +231,22 @@ img {
   }
 }
 
+//https://www.w3schools.com/howto/howto_css_topnav_centered.asp
+
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  //float: right;
+  //margin-top: 23px; // @TODO: Vertically middle align
+
   font-family: $helveticaNeue;
   font-size: 18px;
+
+  //From: https://stackoverflow.com/questions/15367561/centering-a-nav-bar-vertically, not working
+  display: inline-block;
+  vertical-align: middle;
+
+  //From masthead
+  border-bottom: 2px solid $lightGray;
+  border-top: 2px solid $lightGray;
 
   @include mobile {
     float: none;
@@ -229,6 +261,8 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+
+    //text-align: center;
 
     @include mobile {
       margin: 0 10px;
@@ -253,7 +287,7 @@ nav {
 
 .post {
   blockquote {
-    margin: 1.8em .8em;
+    margin: 1.8em 0.8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;

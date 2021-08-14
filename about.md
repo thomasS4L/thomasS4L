@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Skills For Life aligns with the "Mindset Growth Model", which amplifies the importance of continuous learning and self-discovery. The concept was founded on the principles of exploring, confronting, and moving past failure to build on key transferable skills that can be practically applied to daily life.
+
+We organize workshops, events, and other initiatives to fill the gap between traditional learning and practical skills. We are determined to help kids from all walks of life realize the tools they have within themselves to pursue their dreams.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+More information can be
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[info@theskills4life.ca](mailto:info@theskills4life.ca)
