@@ -1,4 +1,3 @@
-add padding to nav bar
-add images to bod
-figure file hosting (GDrive or GitHub)
-Teianna Blog Post
+padding nav bar
+bod images
+teianna blog post
