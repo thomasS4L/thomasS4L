@@ -25,7 +25,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 70%;
   padding: 0 10px;
   width: 100%;
 }
@@ -127,7 +127,7 @@ b {
 }
 
 img {
-  max-width: 70%;
+  max-width: 50%;
   display: block;
   margin: 0 auto;
 }
@@ -245,8 +245,8 @@ nav {
   vertical-align: middle;
 
   //From masthead
-  border-bottom: 2px solid $lightGray;
-  border-top: 2px solid $lightGray;
+  border-bottom: 3px solid $lightGray;
+  border-top: 3px solid $lightGray;
 
   @include mobile {
     float: none;
@@ -258,10 +258,12 @@ nav {
   a {
     margin-left: 10px;
     color: $darkGray;
-    text-align: right;
+    //text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
     margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
     //text-align: center;
 
