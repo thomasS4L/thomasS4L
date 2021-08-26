@@ -19,16 +19,16 @@ avatar: /images/logo-big.png
 footer-links:
   dribbble:
   email: info@theskills4life.ca
-  facebook: https://www.facebook.com/skills4lifeinc
+  facebook: skills4lifeinc
   flickr:
   github:
-  instagram: https://www.instagram.com/skills4lifeinc/
+  instagram: skills4lifeinc/
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: https://twitter.com/SLifeinc
+  twitter: SLifeinc
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: https://www.youtube.com/channel/UCRvsGHxN8txJFv3BV3zX6zw
+  youtube: channel/UCRvsGHxN8txJFv3BV3zX6zw
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
