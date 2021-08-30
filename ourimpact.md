@@ -4,7 +4,7 @@ title: Our Impact
 permalink: /ourimpact/
 ---
 
-#### View Our
+#### View Our:
 
 [Impact Report]({{ site.url }}/thomass4l/download/SkillsForLife-ImpactReport-2021.pdf)
 
