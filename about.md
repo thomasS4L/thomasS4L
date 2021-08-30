@@ -8,10 +8,8 @@ Skills For Life aligns with the "Mindset Growth Model", which amplifies the impo
 
 We organize workshops, events, and other initiatives to fill the gap between traditional learning and practical skills. We are determined to help kids from all walks of life realize the tools they have within themselves to pursue their dreams.
 
-### More Information
+## Our Goals
 
-More information can be
+- To educate youth on the importance of Life Skills development, while helping them plan their future
 
-### Contact me
-
-[info@theskills4life.ca](mailto:info@theskills4life.ca)
+- To connect people, groups, and organizations in order to build strong partnerships and enhance civic engagement
